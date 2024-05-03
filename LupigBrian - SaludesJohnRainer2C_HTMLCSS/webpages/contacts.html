@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="../CSS/mystyle.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Coffee House</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Menu</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="#contacts" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+                <h1>Contact Us</h1>
+                <h2>Contact Form</h2>
+                <p>Please use the form below to send us your questions and inquiries.</p>   
+
+                <form name="MessageForm" method="" action="">
+                    <label>Name:</label><br>
+                    <input type="text" name="txtName" id="txtName" placeholder="Enter Your Name" required ><br><br>
+
+                    <label>Email:</label><br>
+                    <input type="email" name="txtEmail" id="txtEmail" placeholder="Enter Your Email" required><br><br>
+
+                    <label>Contact Number:</label><br>
+                    <input type="tel" name="txtPhone" id="txtPhone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="XXXX-XXX-XXXX"required><br><br>
+
+                    <label>Message:</label><br>
+                    <input type="text" name="txtMessage" id="txtMessage" placeholder="Enter Your Message" required ><br><br>
+
+                    <label>Gender</label><br>
+                    <input type="radio" name="rdGender" id="rdMale">
+                    <label>Male</label>
+                    <input type="radio" name="rdGender" id="rdMale">
+                    <label>Female</label><br><br>
+
+                    <button type="submit">SEND</button>
+                    <button type="reset">CLEAR</button>
+                    <!--<input type="reset" name="ClearBtn" value="CLEAR">-->
+                </form>
+
+            </div>
+    
+   
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Coffee House</p>
+        </div>
+    </footer>
+</body>
+</html>
